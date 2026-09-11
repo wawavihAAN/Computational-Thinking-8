@@ -1,0 +1,10 @@
+print("Why can't you trust atoms?")
+input()
+print("Because they MAKE UP EVERYTHING!")
+input()
+print("Do you want to hear another joke?")
+answer = input()
+if answer == "yes":
+    print("Why did the football coach yell at the vending machine?")
+    input()
+    print("He wanted his quarter back!")
