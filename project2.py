@@ -11,7 +11,7 @@ if place == "Market":
         else:
             print("Say 'Yes' or 'No'")
     else:
-        print(f"There are no more {bought} in stock. ")
+        print(f"There are no more {bought} in stock. Next time, choose an Apple.")
 elif place == "Downtown":
     place2 = input("Do you want to go to the Space Needle, Go Golfing, or Get Fish? ")
     if place2 == "Space Needle":
