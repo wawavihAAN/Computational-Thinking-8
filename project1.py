@@ -10,13 +10,13 @@ ride = input("Something you would ride in: ")
 animal = input("Animal: ")
 person = input("Person: ")
 answer = input("Alright, all done! Do you want to hear the madlib? (Type 'Yes', or 'No')")
-if answer == "Yes":
+if answer == "Yes" or "yes":
     print(f"Today I went to my favorite Taco Stand called the {adjective} {animal}.")
     print(f"Unlike most food stands, they cook and prepare the food in a {ride} while you {verb}.")
     print(f"The best thing on the menu is the {color} {noun}.")
     print(f"Instead of ground beef they fill the taco with {food1}, cheese, and top it off with a salsa made from {food2}.")
     print(f"If that doesn't make your mouth water, then it's just like {person} always says: {saying}!")
-elif answer == "No":
+elif answer == "No" or "no":
     print("Oh. Ok. I feel sad now. I put in all that effort. For nothing...")
     print("I'll read it to you anyways :)")
     print(f"Today I went to my favorite Taco Stand called the {adjective} {animal}. Unlike most food stands, they cook and prepare the food in a {ride} while you {verb}.")
